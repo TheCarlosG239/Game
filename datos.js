@@ -8,10 +8,11 @@ const preguntas = [
   {
     pregunta: '¿Cuál es el símbolo del Carbono?',
     respuestas: [
-      { texto: 'C', correcta: true },
+     
       { texto: 'Ca', correcta: false },
       { texto: 'Co', correcta: false },
-      { texto: 'Cl', correcta: false }
+      { texto: 'Cl', correcta: false },
+       { texto: 'C', correcta: true }
     ]
   },
   {
@@ -71,17 +72,19 @@ const preguntas = [
   {
     pregunta: '¿Cuál es el símbolo del Helio?',
     respuestas: [
-      { texto: 'He', correcta: true },
+
       { texto: 'H', correcta: false },
       { texto: 'Ho', correcta: false },
+       { texto: 'He', correcta: true },
       { texto: 'Hl', correcta: false }
     ]
   },
   {
     pregunta: '¿Cuál es el símbolo del Hidrógeno?',
     respuestas: [
-      { texto: 'H', correcta: true },
+      
       { texto: 'O', correcta: false },
+      { texto: 'H', correcta: true },
       { texto: 'N', correcta: false },
       { texto: 'He', correcta: false }
     ]
